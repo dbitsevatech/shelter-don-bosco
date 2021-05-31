@@ -18973,3 +18973,11 @@ img {
 	margin: 20px;
 	margin-right: 0px;
 }
+
+
+.whychoose-us-section .description h4 {
+	font-size: 20px;
+	line-height: 34px;
+	color: var(--dark-color);
+	margin-bottom: 30px;
+}
