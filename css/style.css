@@ -18981,3 +18981,7 @@ img {
 	color: var(--dark-color);
 	margin-bottom: 30px;
 }
+
+.donateTable td {
+	width: 50%;
+}
