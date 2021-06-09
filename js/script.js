@@ -826,13 +826,15 @@
 				slidesPerView: 1,
 				mousewheel: false,
 				height: 500,
-				grabCursor: true,
+				// grabCursor: true,
 				loop: true,
 				speed: 1500,
-				autoplay: {
-					delay: 5000,
-					disableOnInteraction: false
-				},
+				allowTouchMove: false,
+				// autoplay: {
+				// 	delay: 5000,
+				// 	disableOnInteraction: false
+				// },
+				autoplay: false,
 				pagination: {
 					el: '.banner-slider-pagination',
 					clickable: true,

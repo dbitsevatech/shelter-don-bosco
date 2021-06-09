@@ -18985,3 +18985,10 @@ img {
 .donateTable td {
 	width: 50%;
 }
+
+
+.swiper-slide img
+{
+	width: 90%;
+	height: 90%;
+}
