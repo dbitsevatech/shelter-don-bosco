@@ -1,23 +1,10 @@
-/* Goodsoul Charity HTML5 Template  */
 
-/************ TABLE OF CONTENTS ***************
-1. Fonts
-2. Reset
-3. Global
-4. Main Header
-5. Hidden Sidebar
-6. Banner Section
+@font-face {
 
+	font-family: WickedMouse;
+	src: url(../fonts/WickedMouse.ttf);
+  }
 
-**********************************************/
-
-/*** 
-
-====================================================================
-	Reset
-====================================================================
-
- ***/
 
 * {
 	margin: 0px;
@@ -19016,4 +19003,13 @@ img {
 	display: flex;
 	flex-direction: column-reverse;
 	width: 5%;
+}
+
+.main-title {
+	/* font-family: 'Luckiest Guy', cursive; */
+	/* font-family: 'Bangers', cursive; */
+	/* font-family: 'Carter One', cursive; */
+	/* font-family: 'Bungee', cursive; */
+
+	font-family: 'WickedMouse', cursive;
 }
