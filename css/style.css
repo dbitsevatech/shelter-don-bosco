@@ -19256,6 +19256,7 @@ img {
 
 .swiper-slide img {
   width: 90%;
+  margin: auto 4%;
   height: 90%;
 }
 
@@ -19292,3 +19293,5 @@ img {
 
   font-family: "WickedMouse", cursive;
 }
+
+
