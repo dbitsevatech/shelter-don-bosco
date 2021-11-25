@@ -1571,7 +1571,34 @@ li {
   z-index: 999;
   background-position: center center;
   background-repeat: no-repeat;
-  background-image: url(../images/icons/preloader.svg);
+  background-image: url(../images/icons/preloader-3.svg);
+  background-size: 35%;
+}
+
+.loader-wrap {
+    background: url('../images/sdblogo.webp') center no-repeat;
+    background-size:7%;
+}
+
+@media only screen and (max-width: 540px) {
+  .preloader {
+   
+    background-size: 85%;
+  }
+  
+  .loader-wrap {
+      background-size:17%;
+  }
+}
+
+.preloader-logo {
+  position: fixed;
+  left: 40vw;
+  top: 40vh;
+  width: 10vw;
+  /* margin: auto; */
+  /* display: block; */
+
 }
 
 .preloader.style-two {
@@ -1597,6 +1624,7 @@ li {
   width: 100%;
   height: 100%;
   z-index: 999999;
+  background-color: #fff;
 }
 
 .loader-wrap .layer-one {
