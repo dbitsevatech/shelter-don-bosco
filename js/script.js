@@ -798,24 +798,28 @@
 				640: {
 					slidesPerView: 1,
 				},
-			}
-		});
-		var hCont = new Swiper(".history-content", {
-			preloadImages: false,
-			speed: 1500,
-			autoplay: {
-				delay: 25000,
-				disableOnInteraction: false
 			},
-			spaceBetween: 0,
-			effect: "slide",
 			navigation: {
 				nextEl: '.swiper-button-next',
 				prevEl: '.swiper-button-prev',
 			},
 		});
-		hImg.controller.control = hCont;
-		hCont.controller.control = hImg;
+		// var hCont = new Swiper(".history-content", {
+		// 	preloadImages: false,
+		// 	speed: 1500,
+		// 	autoplay: {
+		// 		delay: 25000,
+		// 		disableOnInteraction: false
+		// 	},
+		// 	spaceBetween: 0,
+		// 	effect: "slide",
+		// 	navigation: {
+		// 		nextEl: '.swiper-button-next',
+		// 		prevEl: '.swiper-button-prev',
+		// 	},
+		// });
+		// hImg.controller.control = hCont;
+		// hCont.controller.control = hImg;
 	}
 
 	function bannerSlider() {
