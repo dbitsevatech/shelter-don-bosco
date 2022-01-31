@@ -12,6 +12,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.2.0
       with:
         server: shelterdonbosco.org
-        username: ${{ secrets.ftp_username}}
-        password: ${{ secrets.ftp_password }}
+        username: ${{ secrets.username}}
+        password: ${{ secrets.password }}
         server-dir: ./httpdocs/
