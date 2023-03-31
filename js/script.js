@@ -928,24 +928,24 @@
 		$('.languages .hover').html(selectedValue);
 	})
 
-	if ($('#donate-popup').length) {
-		var popupOverlay = $(".popup-overlay"),
-			donatePopup = $("#donate-popup");
-		//Show Popup
-		$('.donate-box-btn').on('click', function(e) {
-			e.preventDefault();
-			donatePopup.addClass('popup-visible');
-			popupOverlay.fadeIn(500);
-		});
-		//Hide Popup
-		$('.close-donate').on('click', function() {
-			donatePopup.removeClass('popup-visible');
-			popupOverlay.fadeOut(500);
-		});
-		popupOverlay.on("click", function() {
-			donatePopup.removeClass('popup-visible');
-		});
-	}
+	// if ($('#donate-popup').length) {
+	// 	var popupOverlay = $(".popup-overlay"),
+	// 		donatePopup = $("#donate-popup");
+	// 	//Show Popup
+	// 	$('.donate-box-btn').on('click', function(e) {
+	// 		e.preventDefault();
+	// 		donatePopup.addClass('popup-visible');
+	// 		popupOverlay.fadeIn(500);
+	// 	});
+	// 	//Hide Popup
+	// 	$('.close-donate').on('click', function() {
+	// 		donatePopup.removeClass('popup-visible');
+	// 		popupOverlay.fadeOut(500);
+	// 	});
+	// 	popupOverlay.on("click", function() {
+	// 		donatePopup.removeClass('popup-visible');
+	// 	});
+	// }
 
 	if ($('.event-block-three').length) {
 		var toggleBtn = $('.event-block-three .toggle-btn');
